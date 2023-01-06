@@ -172,17 +172,21 @@ header{
 
 }
 .update-items{
+    display: flex;
+    justify-content: center;
     padding: 80px;
     margin: 25px 210px;
     gap: 0px;
     background-color: rgb(245, 245, 180);
 }
 .ine-p{
-    padding: 10px;
+    padding: 12px;
     border: none;
     background-color: #c4c2c2;
 
 }
+
+/* footer section */
 footer{
     background-color: rgb(6, 6, 46);
     text-align: center;
