@@ -1,6 +1,7 @@
 
 *{
     font-family: 'Open Sans', sans-serif ;
+    margin: 0;
 }
 /*------------------------------ header section style-------------------- */
 
@@ -85,4 +86,115 @@ header{
     width: 650px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+
+/* Our donate plan style */
+
+.our-donate{
+    
+    margin-bottom: 100px;
+}
+.our-d-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.our-d-content{
+    display: flex;
+    gap: 50px;
+    
+    padding: 0 0 0 200px;
+}
+.our-d-c1{
+    background-color: #a4f0f8;
+    height: 300px;
+    width: 250px;
+    
+}
+.our-d-c2{
+    background-color: #f5c6c6;
+    height: 300px;
+    width: 250px;
+}
+.our-d-c3{
+   background-color:  rgba(235, 235, 169, 0.5);
+   height: 300px;
+   width: 250px;
+}
+.d-con{
+    padding: 20px;
+}
+/* contribute section */
+
+
+.contribute{
+    margin: 0 200px;
+    display: flex;
+    gap: 50px;
+}
+
+.contribute-title{
+    text-align: left;
+}
+.d-title-3{
+    font-weight: 200;
+    font-size: 16px;
+    
+
+}
+.contribute-items img{
+    height: 350px;
+    width: 350px;
+    border-radius: 6px;
+}
+
+.contribute-2{
+    margin: 100px 200px;
+    display: flex;
+    gap: 50px;
+}
+
+
+/* update */
+.update{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.d-title-4{
+    font-weight: 700;
+    font-size: 35px;
+}
+.d-title-5{
+    font-weight: 200;
+    font-size: 16px;
+    padding: 0 300px 0;
+
+}
+.update-items{
+    padding: 80px;
+    margin: 25px 210px;
+    gap: 0px;
+    background-color: rgb(245, 245, 180);
+}
+.ine-p{
+    padding: 10px;
+    border: none;
+    background-color: #c4c2c2;
+
+}
+footer{
+    background-color: rgb(6, 6, 46);
+    text-align: center;
+    height: 150px;
+}
+footer h3 {
+    padding-top: 2em;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: #FF5959;
+    font-family: 'Rubik Bubbles', cursive;
+}
+footer p{
+    color: white;
 }
