@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Open Sans', sans-serif ;
+}
+/*------------------------------ header section style-------------------- */
+
+header{
+    
+    background-image: url("../images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    
+}
+
+.header-container{
+    padding: 0 200px 100px ;
+    
+    color: white;
+    text-align: center;
+}
+.h-title{
+    font-weight: 800;
+    font-size: 55px;
+}
+.h-s-title{
+    font-weight: 200;
+    font-size: 16px;
+    padding: 0 210px 0;
+}
+.btn-pri{
+    color: white;
+    background-color: #FF5959;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* -------------------------------------Donate section style--------------------------------------- */
+
+.donate{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.d-title-1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.d-title-2{
+    font-weight: 200;
+    font-size: 16px;
+    padding: 0 210px 0;
+
+}
+.donate-amount{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.amount{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.amount a {
+    text-decoration: none;
+    color: #757575;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+.amount a:hover{
+    background-color : #FFEEEE;
+}
+.input-section{
+    padding-top: 100px;
+}
+.input-style{
+    border: none;
+    border-bottom: 1px solid #757575;
+    width: 650px;
+    text-align: center;
+    margin-bottom: 20px;
+}
